@@ -3,6 +3,8 @@ global_frame: odom
 rolling_window: true
 update_frequency: 5.0
 publish_frequency: 5.0
+inflater:
+  inflation_radius: 0.1
 
 # size of costmap is specified in robot folder
 
