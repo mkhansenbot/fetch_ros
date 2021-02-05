@@ -9,7 +9,7 @@ oscillation_timeout: 10.0
 oscillation_distance: 0.5
 
 # Global planner
-planner_frequency: 0.0
+planner_frequency: 1.0
 planner_patience: 5.0
 NavfnROS:
   allow_unknown: true  # TODO: investigate this
