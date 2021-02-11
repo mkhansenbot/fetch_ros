@@ -28,7 +28,7 @@ laser_sigma_hit: 0.2
 
 # Odometry model
 odom_model_type: "diff-corrected"
-odom_alpha1: 0.15  # rotation noise per rotation
+odom_alpha1: 0.5  # rotation noise per rotation
 odom_alpha2: 0.5  # rotation noise per translation
 odom_alpha3: 0.5  # translation noise per translation
 odom_alpha4: 0.15  # translation noise per rotation
